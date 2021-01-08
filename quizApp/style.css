@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Redressed', cursive;
+    margin: 10%;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcfdf;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.quiz-container{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px black;
+    max-width: 100%;
+    overflow: hidden;
+}
+.quiz-header{
+    padding: 2rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: #3498db;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    color: white;
+    font-family: inherit;
+    border: none;
+    font-size: 1.5rem;
+}
+button:hover{
+    background-color: #368cc5;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0%;
+}
+ul li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+button:focus{
+    background-color: #3498db;
+    outline: none;
+}
